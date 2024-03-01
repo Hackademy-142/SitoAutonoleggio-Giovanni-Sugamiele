@@ -1,0 +1,65 @@
+.logo {
+    width: 80px;
+}
+:root {
+    --col-pri: #284B63;
+    --col-sec: #88A096;
+    --col-acc: #fc814a;
+}
+
+.bg-sec {
+    background-color: var(--col-sec); !important
+}
+.bg-pri {
+    background-color: var(--col-pri); !important
+}
+.bg-acc {
+    background-color: var(--col-acc); !important
+}
+.col-pri {
+    color: var(--col-pri);!important
+}
+.col-sec {
+    color: var(--col-sec);!important
+}
+.col-acc {
+    color: var(--col-acc);!important
+}
+.hero {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+.bor-sec {
+    border-bottom: 3px solid var(--col-pri);
+}
+
+.text-sh {
+    text-shadow: 1px 2px 2px black;
+}
+.text-over-image {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    color: var(--col-acc);
+    text-shadow: 1px 2px 2px var(--col-pri);
+}
+
+.border-btm {
+    border-bottom: 5px solid var(--col-acc); !important
+}
+
+.stelle-btm {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+a.unlink {
+    color: inherit;
+}
+a.unlink:hover {
+    color: inherit;
+}
+.btn-modal:hover {
+    background-color: var(--col-pri);
+}
