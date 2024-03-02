@@ -30,6 +30,12 @@
     width: 100vw;
     object-fit: cover;
 }
+.zin-low {
+    z-index: 100;
+}
+.zin-high {
+    z-index: 1100;
+}
 .bor-sec {
     border-bottom: 3px solid var(--col-pri);
 }
@@ -62,4 +68,9 @@ a.unlink:hover {
 }
 .btn-modal:hover {
     background-color: var(--col-pri);
+}
+@media screen and (max-width: 576px) {
+    .nodisplay {
+            display: none;
+        }
 }

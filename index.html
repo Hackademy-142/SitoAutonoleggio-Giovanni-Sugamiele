@@ -38,10 +38,11 @@
   <div class="container fixed-bottom text-end">
       <a class="btn bg-acc rounded-circle mb-5 btn-modal border text-white" href="#home" role="button"><i class="bi bi-caret-up-fill"></i></a>
   </div>
+
   <!-- Homepage -->
   <div id="home" class="container-fluid text-center position-relative px-0">
 
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleAutoplaying zin-low" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner text-center">
         <div class="carousel-item active">
           <img src="./assets/Hero (1).jpg" class="d-block hero" alt="...">
@@ -55,7 +56,7 @@
       </div>
       <div class="position-absolute translate-middle text-over-image">
         <h1>M.T. Service Autonoleggio</h1>
-        <p>Il punto di riferimento per il noleggio di auto nella provincia di Trapani</p>
+        <p class="nodisplay">Il punto di riferimento per il noleggio di auto nella provincia di Trapani</p>
       </div>
     </div>
   </div>
@@ -104,8 +105,8 @@
         </div>
 
         <div class="modal-footer">
-          <button type="button" class="btn bg-pri text-light" data-bs-dismiss="modal">Chiudi</button>
-          <input class="btn bg-acc" type="submit" value="Invia">
+          
+          <button type="button" class="btn bg-acc text-light btn-modal" data-bs-dismiss="modal">Invia</button>
         </div>
 
       </div>
@@ -271,6 +272,11 @@
           <p><i class="bi bi-geo-alt-fill"></i> Via Fratelli di Falco, 40 - Paceco (TP)</p>
           <p><i class="bi bi-telephone-fill"></i> 328 365 0762</p>
           <p><i class="bi bi-envelope-fill"></i> info@autonoleggi.xyz</p>
+          <h5 class="text-uppercase">Links</h5>
+          <a class="col-acc text-sh unlink" href="#home">Home</a>
+          <a class="col-acc text-sh unlink" href="#footer">About</a>
+          <a class="col-acc text-sh unlink" href="#flotta">Flotta</a>
+          <a class="col-acc text-sh unlink" href="#recensioni">Recensioni</a>
           <div class="container">
             <ul class="list-group list-group-horizontal justify-content-center">
               <li class="list-group-item mx-2 my-3 rounded-circle"><a class="unlink" href=""><i class="bi bi-facebook"></i></a></li>
@@ -280,7 +286,9 @@
             </ul>
           </div>
         </div>
-        <div class="col-12 text-center bg-acc p-3">© 2024 M. T. Service s.r.l.</div>
+        <div class="col-12 text-center bg-acc p-3">
+          © 2024 M. T. Service s.r.l.
+        </div>
       </div>
     </div>
   </footer>
